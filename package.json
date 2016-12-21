@@ -1,0 +1,47 @@
+{
+  "name": "cld-sync",
+  "description": "Language detection for Javascript. Originally based on async node cld (v2.4.7) library.",
+  "keywords": [
+    "language",
+    "detect",
+    "language detection",
+    "cld",
+    "cld2",
+    "sync",
+    "synchronous"
+  ],
+  "version": "1.0.0",
+  "main": "./index",
+  "dependencies": {
+    "glob": "^5.0.10",
+    "nan": "^2.0.5",
+    "rimraf": "^2.4.0",
+    "underscore": "^1.6.0"
+  },
+  "scripts": {
+    "test": "node test/runner.js",
+    "postinstall": "node bin/postinstall.js"
+  },
+  "author": {
+    "name": "Ilya Yurchenko",
+    "email": "yourchenkoiv@gmail.com"
+  },
+  "contributors": [
+    "Lovell Fuller <npm@lovell.info>",
+    "Blagovest Dachev <blago@dachev.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hololoev/node-cld-sync"
+  },
+  "licenses": [
+    {
+      "type": "Apache",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ],
+  "engines": {
+    "node": ">=0.10.0",
+    "iojs": ">=1.0.0"
+  }
+}
