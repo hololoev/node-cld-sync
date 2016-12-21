@@ -1,11 +1,11 @@
 # node-cld-sync
 
-Synchronously Language detection for Javascript. Originally based on async node cld (https://www.npmjs.com/package/cld) library.
+Synchronously Language detection for Javascript. Originally based on async node cld (https://github.com/dachev/node-cld) library.
 
 ## Installation
 
 ```bash
-$ npm install cld
+$ npm install cld-sync
 ```
 
 Linux users, make sure you have g++ >= 4.8. If this is not an option, you should be able to install node-cld 2.4.4 even with an older g++ build.
@@ -27,7 +27,7 @@ var options = {
   httpHint     : 'bg'
 };
 var cld = require('cld');
-console.log(cld.detect(text, options));
+console.log( cld.detect(text, options) );
 ```
 
 ## Options
